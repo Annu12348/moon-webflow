@@ -6,7 +6,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   return (
     <div className="w-full min-h-screen  ">
-      {loading ? <Loading setLoading={setLoading} /> : <Router />}
+      {loading ? <Loading setLoading={setLoading} /> :<Router />}
     </div>
   );
 };
